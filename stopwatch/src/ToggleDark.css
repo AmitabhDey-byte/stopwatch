@@ -1,0 +1,38 @@
+/* LIGHT THEME (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #f2f2f2;
+}
+
+/* DARK THEME */
+:root.dark {
+  --bg-color: #111111;
+  --text-color: #ffffff;
+  --card-bg: #222222;
+}
+
+/* Apply theme to entire page */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: 0.3s ease;
+}
+
+/* Example card (use anywhere) */
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 8px;
+  transition: 0.3s ease;
+}

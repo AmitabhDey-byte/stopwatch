@@ -1,13 +1,16 @@
-import React, {useState, useEffect, useRef} from "react";
-import stopwatch from "./stopwatch.jsx"
-function App()
-{
-  return
-(
-  <>
-  <stopwatch/>
-  </>
-)
+import React from "react";
+import Stopwatch from "./stopwatch.jsx";
+import ToggleDark from "./ToggleDark.jsx";
+import './App.css'
+
+function App() {
+  return (
+    <>
+      <Stopwatch />
+      <ToggleDark/>
+    
+    </>
+  );
 }
 
-export default App
+export default App;

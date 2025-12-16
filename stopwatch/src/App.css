@@ -1,0 +1,42 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Controls{
+  background: #0a0a0a;
+  border-radius: 12px;
+  padding: 20px;
+  color: #e6f1ff;
+  border: 1px solid rgba(0, 170, 255, 0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.Controls:hover {
+  box-shadow:
+    0 0 5px #00aaff,
+    0 0 15px #00aaff,
+    0 0 30px rgba(0, 170, 255, 0.8),
+    0 0 60px rgba(0, 170, 255, 0.6);
+  transform: translateY(-2px);
+}
+.Stopwatch{
+  background: #0a0a0a;
+  border-radius: 12px;
+  padding: 20px;
+  color: #e6f1ff;
+  border: 1px solid rgba(0, 170, 255, 0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.Stopwatch:hover {
+  box-shadow:
+    0 0 5px #00aaff,
+    0 0 15px #00aaff,
+    0 0 30px rgba(0, 170, 255, 0.8),
+    0 0 60px rgba(0, 170, 255, 0.6);
+  transform: translateY(-2px);
+}
+
